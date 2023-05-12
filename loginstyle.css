@@ -1,0 +1,136 @@
+*{
+    font-family:'Poppins',sans serif; 
+}
+body{
+    background-image: url("redstagebackground.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment:fixed;
+}
+.box{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:90vh;
+}
+.container{
+    width:350px;
+    display:flex;
+    flex-direction:column;
+    padding:0 15px 0 15px;
+}
+span{
+    color:red;
+    font-size:360%;
+    display:flex;
+    justify-content:center;
+    padding:10px 0 10px 0;
+}
+header{
+    color:red;
+    font-size: 40px;
+    display:flex;
+    justify-content:center;
+    padding:10px 0 10px 0;
+}
+.input-field{
+    display:flex;
+    flex-direction:column;
+    
+}
+    
+.input{
+    height:55px;
+    border:none;
+    width:87%;
+    outline:none;
+    border-radius:30px;
+    color:white;
+    padding: 0 0 0 45px;
+    background:rgba(255, 255, 255, 0.1);
+    margin-bottom:15px;
+    font-size:30px;
+}
+.input1{
+    height:55px;
+    border:none;
+    width:87%;
+    outline:none;
+    border-radius:30px;
+    color:white;
+    padding: 0 0 0 45px;
+    background:rgba(255, 255, 255, 0.1);
+    margin-bottom:15px;
+    font-size:30px;
+}
+.input2{
+    height:55px;
+    border:none;
+    width:87%;
+    outline:none;
+    border-radius:30px;
+    color:white;
+    padding: 0 0 0 45px;
+    background:rgba(255, 255, 255, 0.1);
+    margin-bottom:15px;
+    font-size:30px;
+}
+.input3{
+    height:55px;
+    border:none;
+    width:87%;
+    outline:none;
+    border-radius:30px;
+    color:white;
+    padding: 0 0 0 45px;
+    background:rgba(255, 255, 255, 0.1);
+    margin-bottom:15px;
+    font-size:30px;
+}
+
+ ::placeholder {
+
+    font-size:35px;
+    margin-right:80px;
+ }
+
+i{
+    position:relative;
+    top:-33px;
+    left:17px;
+    color:rgb(2, 206, 77);
+}
+::-webkit-input-placeholder{
+    color:rgb(2, 206, 77);
+}
+.submit{
+    background-color:transparent;
+    font-size:15px;
+    height:20px;
+    outline:none;
+    width:140px;
+    cursor:pointer;
+    transition:.3s;
+    margin-left:28%;
+    border-color:black;
+
+}
+.submit:hover{
+    box-shadow:1px 5px 7 1px rgba(0,0,0,0.2);
+}
+.bottom{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    font-size:small;
+    color:green;
+    margin-top:10px;
+}
+.left{
+    display:flex; 
+}
+label a{
+    color:green;
+    text-decoration:none;
+}

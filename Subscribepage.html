@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-compatiable" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="loginstyle.css">
+        <link rel="stylesheet">
+    </head>
+<body>
+    <div class="box">
+        <div class="container">
+            <div class="top-header">
+                <span>Don't have an account?</span>
+                <header>Sign in to Subscribe</header>
+            </div>
+
+            <div class="input-field">
+                <input type="text" class="input" Placeholder="Username" required>
+                <i class="bx bx-user"></i>
+            </div>
+            <div class="input-field">
+                <input type="text" class="input1" Placeholder="Email Id" required>
+                <i class="bx bx-user"></i>
+            </div>
+            <div class="input-field">
+                <i class="bx bx-lock-alt"></i>
+            </div>
+            <div class="input-field">
+                <input type="password" class="input2" id="input2" Placeholder="Password" required>
+                <i class="bx bx-lock-alt"></i>
+            </div>
+            <div class="input-field">
+                <input type="password" class="input3" id="input3" Placeholder="Confirm Password" required>
+                <i class="bx bx-lock-alt"></i>
+            </div>
+            <div class="input-field">
+                <button type="submit" class="submit" onClick="f()">Login</button>
+            </div> 
+
+            <div class="bottom">
+                <div class="left">
+                    <input type="checkbox" id="check">
+                    <label for="check">Remember Me</label>
+                </div>
+                <div class="right">
+                    <label><a href="#"></a>Forgot Password?</label>
+                </div>
+            </div>   
+        </div>
+    </div>
+    <script>
+        function f()
+        {
+          a=document.getElementById("input2").value;
+          b=document.getElementById("input3").value;
+          if (a==b && a.trim()!="" && b.trim()!="")
+            {
+              window.alert("Login Successful");
+              window.location.href="mainmoviepage.html";
+              return true;
+            }
+            else if (a.trim() === "" || b.trim() === "") {
+              window.alert("Please enter both passwords");
+              return false;
+            }
+    
+          else{
+            window.alert("Passwords must be same");
+            return false;
+          }
+        }
+      </script>
+</body>
+
+</html>

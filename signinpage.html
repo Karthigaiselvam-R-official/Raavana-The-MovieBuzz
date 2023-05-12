@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign in</title>
+    <link rel="stylesheet" href="signinstyle.css">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Bungee Shade">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=UnifrakturMaguntia">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Tilt Prism ">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Eater">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Faster One">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=New Roker">
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Nabla">
+</head>
+<body>
+    <div class="main">
+    <div class="navbar">
+        <div class="icon">
+            <h2 class="logo">Raavana</h2>
+            <img src="logo/titlelogo.png" class="lg">
+        </div>
+    </div>
+    </div>
+    <div class="form">
+        <h2>Login here</h2>
+        <input type ="email" id="mail" name="email" placeholder="Email Id here">
+        <input type="password" id="pass"name="password"placeholder="Password here">
+        <button class="but" onClick="f()">Sign up</button>
+        <p class="link">Don't have an account?<br>
+        <a href="Subscribepage.html#">Sign in here</a></p>
+        <p class="liw">Sign in with </p>
+        <div class="icons">   
+            <a href= "https://accounts.google.com/v3/signin/identifier?dsh=S1627447119%3A1683464546802761&ifkv=Af_xneG5PQ85k56cnO0IuIGQDOW3oeLsbKO--rEWAOyQE3DYT9vvxTjLs55gGgvUh1cMTlDFhATQCA&flowName=GlifWebSignIn&flowEntry=ServiceLogin"><ion-icon name="logo-google"></ion-icon></a>
+            <a href= "https://www.instagram.com/accounts/login/"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href= "https://twitter.com/accounts/login/"><ion-icon name="logo-twitter"></ion-icon></a>
+            <a href= "https://github.com/login"><ion-icon name="logo-github"></ion-icon></a>
+            <a href= "https://www.linkedin.com/login"><ion-icon name="logo-linkedin"></ion-icon></a>
+        </div>
+
+    </div>
+
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script>
+        function f()
+        {
+          a=document.getElementById("pass").value;
+          b=document.getElementById("mail").value;
+          if (a.trim()!="" &&b.trim()!="")
+            {
+              window.alert("Login Successful");
+              window.location.href="https://isaimini.sbs/";
+              return true;
+            }
+            else if (a.trim() === "") {
+              window.alert("Please enter the Password");
+              return false;
+            }
+            else if ( b.trim() === "" ){
+                window.alert("Please enter the Email Id")
+            }
+          else{
+            window.alert("Passwords must be same");
+            return false;
+          }
+        }
+      </script>
+</body>
+</html>
