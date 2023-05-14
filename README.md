@@ -9,4 +9,4 @@ If you have any questions, feedback or just want to say hello, feel free to cont
     
 I would love to hear from you and am always open to connecting with new people in the industry. Don't hesitate to reach out!
 
-Project Documentation link:
+Project Documentation link: https://github.com/Karthigaiselvam-R-official/Raavana-The-MovieBuzz/blob/master/Project%20Documentation.pdf
